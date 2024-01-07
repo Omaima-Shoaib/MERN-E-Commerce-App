@@ -1,10 +1,17 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Announcements from "../components/Announcements";
+import Slider from "../components/Slider";
+
 
 function Home() {
   return (
-    <div><Navbar></Navbar></div>
-  )
+    <div>
+      <Announcements></Announcements>
+            <Navbar></Navbar>
+            <Slider></Slider>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
