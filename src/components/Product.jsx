@@ -1,10 +1,7 @@
 import {
-  Favorite,
   FavoriteBorderOutlined,
   Search,
-  ShoppingBagOutlined,
   ShoppingCartOutlined,
-  ShoppingCartRounded,
 } from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";

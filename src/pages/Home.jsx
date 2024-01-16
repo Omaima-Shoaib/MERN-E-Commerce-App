@@ -4,6 +4,7 @@ import Announcements from "../components/Announcements";
 import Slider from "../components/Slider";
 import Categories from "../components/Categories";
 import Products from "../components/Products";
+import Newsletter from "../components/Newsletter";
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
             <Slider></Slider>
             <Categories></Categories>
             <Products></Products>
+        <Newsletter></Newsletter>
     </div>
   );
 }
