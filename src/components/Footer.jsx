@@ -1,5 +1,4 @@
 import {
-  FacebookOutlined,
   FacebookRounded,
   Instagram,
   MailOutline,
