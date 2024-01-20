@@ -4,12 +4,15 @@ import Announcements from "../components/Announcements";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import { Add, Remove } from "@mui/icons-material";
+import { mobile } from "../responsive";
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+${mobile({flexDirection:'column',padding:'10px'})}
+
 `;
 
 const ImageContainer = styled.div`
@@ -20,14 +23,23 @@ const Image = styled.img`
   width: 100%;
   height: 90vh;
   object-fit: cover;
+${mobile({objectFit:'contain',
+height:'auto'
+// height:'40px' in the tutorial
+})}
+
 `;
 
 const InfoContainer = styled.div`
   flex: 1;
   padding: 0px 50px;
+${mobile({padding:'10px'})}
+
 `;
 const Title = styled.h1`
   font-weight: 200;
+${mobile({fontSize:'20px'})}
+
 `;
 
 const Desc = styled.p`
@@ -44,6 +56,8 @@ const FilterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 30px 0px;
+${mobile({width:'100%'})}
+
 `;
 const Filter = styled.div`
   display: flex;
@@ -70,6 +84,7 @@ const FilterSizeOption = styled.option``;
 const AmountContainer = styled.div`
   display: flex;
   align-items: center;
+
   `;
 
 const AddContainer = styled.div`
@@ -78,6 +93,8 @@ width: 50%;
 display: flex;
 align-items: center;
 justify-content: space-between;
+${mobile({width:'100%'})}
+
 `;
 
 const Amount = styled.span`
