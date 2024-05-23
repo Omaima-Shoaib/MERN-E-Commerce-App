@@ -6,12 +6,12 @@ import Product from "./pages/Product";
 import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 import {
-  Router,
+
   Route,
   Routes,
   BrowserRouter,
   Navigate,
-  redirect,
+
 } from "react-router-dom";
 function App() {
   const user = false;
@@ -27,7 +27,8 @@ function App() {
           ></Route>
           <Route path="/product/:id" element={<Product></Product>}></Route>
           <Route path="/login" element={user?<Navigate to='/'></Navigate>:<Login></Login>}></Route>
-          <Route path="/register" element={<Register></Register>}></Route>
+          <Route path="/register" element={user?<Navigate to='/'></Navigate>:<Register></Register>}></Route>
+          {/* <Route path="/register" element={<Register></Register>}></Route> */}
         </Routes>
       </BrowserRouter>
     </div>

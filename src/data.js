@@ -24,23 +24,28 @@ export const sliderItems = [
 export const categories = [
   {
     id: "1",
-    title: "Sports Wear",
+    title: "Men",
     image:
-    "https://images.pexels.com/photos/1103830/pexels-photo-1103830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFufGVufDB8fDB8fHww",
+    cat:"man"
   },
   {
  
     id: "3",
-    title: "Winter",
+    title: "Woman",
     image:
-      "https://images.pexels.com/photos/5935738/pexels-photo-5935738.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cat:"woman"
+
       
   },
   {
     id: "2",
-    title: "Casual Wear",
+    title: "Jeans Wear",
     image:
-      "https://images.pexels.com/photos/9834877/pexels-photo-9834877.jpeg",
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cat:"jeans"
+
   },
 ];
 

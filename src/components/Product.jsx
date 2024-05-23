@@ -29,6 +29,7 @@ const Container = styled.div`
   flex: 1;
   margin: 5px;
   min-width: 280px;
+
   height: 350px;
   display: flex;
   align-items: center;
@@ -54,6 +55,7 @@ const Image = styled.img`
   width: 90%;
   height: 100%;
   object-fit: contain;
+  /* object-fit: cover; */
   z-index: 2;
 `;
 
@@ -75,7 +77,9 @@ const Icon = styled.div`
   }
 `;
 function Product({ item }) {
+
   return (
+    
     <Container>
       <Circle />
       <Image src={item.img} />
